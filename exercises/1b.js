@@ -10,5 +10,8 @@
  * @returns {Array} The array containing only the middle elements
  */
 export function getMiddle(arr) {
+  arr.pop()
+  arr.shift()
+  return arr
   // TODO
 }
